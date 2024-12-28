@@ -15,6 +15,6 @@ export const sendMessage = async (topic: string, message: string) => {
   });
 
   producer.on("error", (err) => {
-    console.error("Error: " + err);
+    console.error("Producer Error: " + err);
   });
 };
