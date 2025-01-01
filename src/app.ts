@@ -1,4 +1,4 @@
-import app from "./producerServer";
+import app from "./server";
 
 const PORT = 3000;
 const TOPIC = "test-topic";
